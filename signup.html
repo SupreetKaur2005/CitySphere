@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sign Up</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="signup_process.php" method="post">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                <button type="submit" class="button">Sign Up</button>
+                <div class="alternative-signin">
+                    <button type="button" class="button google">Sign up with Google</button>
+                    <button type="button" class="button microsoft">Sign up with Microsoft</button>
+                    <button type="button" class="button sso">Sign up with SSO</button>
+                </div>
+            </form>
+            <div class="links">
+                <a href="signin.html">Already have an account? Sign In</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

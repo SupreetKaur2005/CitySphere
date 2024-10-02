@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('city3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #2c3e50;
+    /* Dark blue-grey */
+    overflow-y: scroll;
+    /* Ensure vertical scrolling */
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.8);
+    /* Dark blue-grey with transparency */
+    color: #ecf0f1;
+    /* Light grey */
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #ecf0f1;
+    /* Light grey for the heading */
+    font-size: 3rem;
+    /* Larger font size */
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    /* Center the heading */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* Center vertically */
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* White background with slight transparency */
+    padding: 2rem;
+    border-radius: 15px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    text-align: center;
+    /* Center text */
+    width: 300px;
+    /* Fixed width for the form container */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    /* Larger text */
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.button {
+    background-color: rgba(52, 73, 94, 0.8);
+    /* Darker blue-grey with transparency */
+    color: #ecf0f1;
+    /* Light grey */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: #34495e;
+    /* Slightly darker blue-grey on hover */
+}
+
+.alternative-signin {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.alternative-signin .button {
+    background-color: #d3d3d3;
+    /* Light grey for alternative sign-in buttons */
+    color: #333;
+}
+
+.alternative-signin .button:hover {
+    background-color: #b0b0b0;
+    /* Darker grey on hover */
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.button:hover {
+    background-color: #34495e;
+    /* Slightly darker blue-grey on hover */
+}
+
+.alternative-signin {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.alternative-signin .button {
+    background-color: #d3d3d3;
+    /* Light grey for alternative sign-in buttons */
+    color: #333;
+}
+
+.alternative-signin .button:hover {
+    background-color: #b0b0b0;
+    /* Darker grey on hover */
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    display: block;
+    margin-top: 0.5rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

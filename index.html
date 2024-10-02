@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CitySphere</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .button-container a {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: rgba(52, 73, 94, 0.8);
+            color: #ecf0f1;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .button-container a:hover {
+            background-color: #34495e;
+        }
+        
+        .header-right {
+            margin-left: 20px;
+            /* Adjust this value to move it further right */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-right">CitySphere</h1>
+        <nav>
+            <a href="signin.html" class="button">Sign In</a>
+            <a href="signup.html" class="button">Sign Up</a>
+        </nav>
+    </header>
+    <main>
+        <div class="button-container">
+            <a href="javascript:void(0);" onclick="window.location.href='https://code.earthengine.google.com/f05dc56595ce5813260475567b76190f'">ChatBot</a>
+            <a href="https://code.earthengine.google.com/f05dc56595ce5813260475567b76190f">GEE</a>
+        </div>
+        <div class="container">
+            <section id="about Gee" class="card">
+                <h2>About GEE</h2>
+                <p>By integrating government datasets and real-time citizen input, this platform enables smarter decision-making for officials, businesses, and communities.we created a script on GEE focusing on India</p>
+            </section>
+            <section id="resources" class="card">
+                <h2>Resources</h2>
+                <p>Access a wide range of resources to help you understand and utilize our platform. From tutorials and documentation to community forums and support, we've got you covered.</p>
+            </section>
+            <section id="links" class="card">
+                <h2>About ChatBot</h2>
+                <p>We created a ChatBot using gradio service that can enhance your experience with our platform.Note: Its yet to be deployed</p>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
